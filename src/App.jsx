@@ -14,7 +14,7 @@ function App() {
         }}>
         Welcome to Sudhakar's App
       </h1>
-      <div>
+      <div style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
         <Student name="Sudhakar" age={20} />
         <Student name="Another Student" age={22} />
       </div>
